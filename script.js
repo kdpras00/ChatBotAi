@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             console.log('Sending message to server:', message);
             
-            const response = await fetch('https://chat-bot-ai-amber-zeta.vercel.app/', {
+            const response = await fetch('https://chat-bot-ai-beta.vercel.app/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
