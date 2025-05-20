@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             console.log('Sending message to server:', message);
             
-            const response = await fetch('/', {
+            const response = await fetch('http://localhost:3000/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
